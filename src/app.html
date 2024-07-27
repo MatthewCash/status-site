@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%sveltekit.assets%/img/heart-gray.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        %sveltekit.head%
+        <style>
+            html,
+            body {
+                margin: 0;
+                height: 100%;
+                background-color: black;
+            }
+            :root {
+                font-family: sans-serif;
+                color: white;
+            }
+            * {
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">%sveltekit.body%</div>
+    </body>
+</html>
