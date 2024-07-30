@@ -44,8 +44,9 @@
 <style>
     footer {
         padding: 1rem;
-        background-color: #404040;
-        border-radius: 0.5rem;
+        background-color: #505050;
+        border-radius: 1rem;
+        text-align: center;
     }
     span {
         margin-left: 0.5rem;

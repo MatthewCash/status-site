@@ -61,7 +61,9 @@
         }
     }
     #footer {
-        margin-top: 2rem;
+        margin: 2rem auto 0 auto;
+        max-width: 650px;
+        width: 100%;
     }
     .pulse {
         animation: pulse 0.75s infinite ease-in alternate;
