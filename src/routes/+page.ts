@@ -37,7 +37,10 @@ export interface Section {
 }
 
 export async function load({ fetch }) {
-    const res = await fetch('https://api.status.matthew-cash.com/status.json');
+    const res = await fetch(
+        'https://api.status.matthew-cash.com/status.json',
+        { cache: 'no-store' }
+    );
     const status: Section = await res.json();
 
     return { status };
